@@ -78,3 +78,58 @@ git clone https://github.com/YOUR_USERNAME/e-saloon.git
 
 # Open project folder
 cd e-saloon
+
+## Structure 
+e-saloon/
+│
+├── admin/                 # Admin Panel
+│   ├── dashboard.php
+│   ├── manage_users.php
+│   ├── manage_appointments.php
+│   ├── manage_services.php
+│   └── login.php
+│
+├── user/                  # User Panel
+│   ├── home.php
+│   ├── booking.php
+│   ├── my_appointments.php
+│   ├── login.php
+│   └── register.php
+│
+├── chatbot/               # Chatbot functionality
+│   ├── chatbot.php
+│   └── responses.php
+│
+├── voice/                 # Voice booking feature
+│   ├── voice.js
+│   └── voice_booking.php
+│
+├── config/                # Database configuration
+│   └── db.php
+│
+├── database/              # Database files
+│   └── e_saloon.sql
+│
+├── assets/                # Static files
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   ├── images/
+│   └── icons/
+│
+├── includes/              # Reusable components
+│   ├── header.php
+│   ├── footer.php
+│   └── navbar.php
+│
+├── auth/                  # Authentication logic
+│   ├── login_process.php
+│   ├── register_process.php
+│   └── logout.php
+│
+├── index.php              # Main landing page
+├── about.php
+├── contact.php
+│
+└── README.md
